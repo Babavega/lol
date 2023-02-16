@@ -1,0 +1,25 @@
+let vida = "UFHmOkvOlcU";
+let vidb = "_jQmV18RJl0";
+let vidc = "v4kCTlN9OTY";
+let vidd = "GvPTdr9zlYA";
+let vide = "VtIjcH7AP6o";
+let vidf = "CHHoMWNWdaQ";
+let vidg = "JuumQS2ePN4";
+let vidh = "RBKgHro49PI";
+let vidi = "baWzvZT700w";
+let vidj = "AfiqNkZw-vk";
+let vidk = "DRPCtPT7I60";
+let vidl = "OyDgm5M7Jj4";
+
+let titlea = "Heat and Mass Transfer 1";
+let titleb = "Heat and Mass Transfer 2";
+let titlec = "Size Reduction and Size Seperation";
+let titled = "Evaporation";
+let titlee = "Drying";
+let titlef = "Centrifugation";
+let titleg = "Crystallization";
+let titleh = "Extraction";
+let titlei = "Filtration";
+let titlej = "Mixing 1";
+let titlek = "Mixing 2";
+let titlel = "Material of construction";
