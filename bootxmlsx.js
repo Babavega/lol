@@ -108,17 +108,11 @@ const headersip = {
 
         if (messageResponse === "") messageResponse = "No response";
         
-        chatArea.innerHTML += "<div class='message received'><span class='p'><strong>Pharmalite:</strong> " + messageResponse + "</span><span class='metadata' ><span class='time'>" + getTimeStamp() + "</span></span></div>";
      
- chatArea.addEventListener('click', function(e) {
-  if (e.target.classList.contains('message')) {
-    var messageText = e.target.querySelector('span.p').textContent;
-    // perform action with messageText
-  }
-});
-  
+     chatArea.innerHTML += "<div class='message received' onclick='messageClick(this)'><span class='p'><strong>Pharmalite:</strong> " + messageResponse + "</span><span class='metadata' ><span class='time'>" + getTimeStamp() + "</span></span></div>";
 
-  document.getElementById('status').innerHTML = '<nbsp style="color:#00e93d">● </nbsp>online';
+   
+document.getElementById('status').innerHTML = '<nbsp style="color:#00e93d">● </nbsp>online';
   buttonClicked();
   
  // Save chat history to localStorage
@@ -230,3 +224,8 @@ function clearChatHistory() {
     localStorage.removeItem(CHAT_HISTORY_KEY);
     window.location.reload();
 }
+function messageClick(element) {
+  var messageText = element.querySelector('span.p').textContent;
+  // perform action with messageText
+}
+
