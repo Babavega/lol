@@ -80,6 +80,7 @@ animateMessage();
 
      
         response = JSON.parse(http.responseText);
+        console.log(JSON.stringify(response));
      if (response.status === false ) {
         var messageResponse = "Sorry😔, It's an error please send your question again.";
         const llr = 'https://api.pawan.krd/resetip';
